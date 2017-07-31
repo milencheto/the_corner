@@ -21,7 +21,7 @@
 		}
 
 		.slider-subtitle{
-			@include em(30);
+			@include em(25);
 			color: white;
 			text-transform: uppercase;
 			font-weight: 300;
@@ -31,8 +31,8 @@
 		}
 		.slider-title{
 			color: $accent-color;
-			@include em(90);
-			font-weight: 300;
+			font-size: 3.7rem;
+			font-weight: 400;
 			font-family: $primary-font;
 			text-transform: uppercase;
 			margin: 0 0 30px;
@@ -414,10 +414,9 @@
 		p{margin: 0}
 	}
 	address{
-		width: 200px;
 		padding-left:30px;
 		position: relative;
-		margin-right: 20px;
+		margin-right: 50px;
 
 		.icon{
 			position: absolute;
@@ -430,6 +429,7 @@
 		.mail,.phone{
 			position: relative;
 			padding-left: 30px;
+			margin-right: 50px;
 
 			.icon{
 				position: absolute;

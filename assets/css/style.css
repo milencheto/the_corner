@@ -259,8 +259,8 @@ form input:not([type="submit"]), form textarea {
       background-position: center center;
       padding-top: 200px; }
     .hero-slider .slides .slider-subtitle {
-      font-size: 30px;
-      font-size: 1.875rem;
+      font-size: 25px;
+      font-size: 1.5625rem;
       color: white;
       text-transform: uppercase;
       font-weight: 300;
@@ -269,9 +269,8 @@ form input:not([type="submit"]), form textarea {
       line-height: 1; }
     .hero-slider .slides .slider-title {
       color: #cc7250;
-      font-size: 90px;
-      font-size: 5.625rem;
-      font-weight: 300;
+      font-size: 3.7rem;
+      font-weight: 400;
       font-family: "Novecento Sans", "Open Sans", sans-serif;
       text-transform: uppercase;
       margin: 0 0 30px;
@@ -626,10 +625,9 @@ form input:not([type="submit"]), form textarea {
     .address-info address p, .address-info .contact-info p {
       margin: 0; }
   .address-info address {
-    width: 200px;
     padding-left: 30px;
     position: relative;
-    margin-right: 20px; }
+    margin-right: 50px; }
     .address-info address .icon {
       position: absolute;
       left: 0;
@@ -638,7 +636,8 @@ form input:not([type="submit"]), form textarea {
     display: block; }
   .address-info .contact-info .mail, .address-info .contact-info .phone {
     position: relative;
-    padding-left: 30px; }
+    padding-left: 30px;
+    margin-right: 50px; }
     .address-info .contact-info .mail .icon, .address-info .contact-info .phone .icon {
       position: absolute;
       top: 5px;
