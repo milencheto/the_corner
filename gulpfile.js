@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     connect = require('gulp-connect'),
     watch = require('gulp-watch'),
     sass = require('gulp-sass'),
-    livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload'),
+    removeFiles = require('gulp-remove-files');
 
 
 //Starts server at localhost:2001
@@ -15,6 +16,11 @@ var gulp = require('gulp'),
  gulp.task('html', function () {
   gulp.src('*.html')
     .pipe(livereload());
+});
+
+gulp.task('clearFiles', function () {
+  gulp.src('assets/css/*.css')
+    .pipe(removeFiles());
 });
 
 gulp.task('sassConvert', function () {
